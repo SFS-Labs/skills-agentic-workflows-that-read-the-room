@@ -1,0 +1,21 @@
+name: update-github-info
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run agentic workflow
+        uses: github/gh-aw-actions/run@v0
+        with:
+          workflow: update-github-info
+          token: ${{ secrets.COPILOT_GITHUB_TOKEN }}
