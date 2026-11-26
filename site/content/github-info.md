@@ -1,16 +1,17 @@
 # GitHub Info
 
-## Mona's editorial angle
+A short, always-fresh overview of what is happening around GitHub, curated for visitors of
+Mona's site.
 
-Mona's website focuses on practical GitHub guidance backed by official references from:
+## This week at GitHub
 
-- docs.github.com
-- github.blog
-- github.blog/changelog
+- **GitHub Blog** — the latest product stories and engineering deep dives are summarised in two
+  sentences each, with links back to the full post.
+- **GitHub Changelog** — noteworthy changes are grouped by area (Copilot, Actions, Platform) so
+  readers can skim what affects them.
+- **Mona's notes** — reminders about events and posts she wants highlighted this week.
 
-## Current homepage themes
+## How this page is maintained
 
-- GitHub collaboration basics: repositories, branches, pull requests, and merges.
-- GitHub Copilot as an AI coding assistant across the IDE, CLI, and GitHub.
-- GitHub Actions as the automation layer behind repository workflows.
-- Recent GitHub Blog and Changelog stories worth watching.
+An agentic workflow refreshes this page from `notes/mona-notes.md`, the GitHub Blog and the
+GitHub Changelog, then opens a pull request for review before anything ships.
